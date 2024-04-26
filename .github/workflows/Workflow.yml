@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
-  # Allows you to run this workflow manually from the Actions tab
+# Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -29,15 +29,14 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
+      # Runs a set Iof commands using the runners shell
       - name: Run a multi-line script
+        run: npm audit fix
+      - name: scripts
         run: |
-          # 2022 Update - Fix Dependencies
-npm audit fix
-npm i @parcel/transformer-sass
-
-Install dependencies
-npm install
+         npm install
+         npm ststart
+#nstall dependencies
+scripts
 
 # Start the development server
-npm start
