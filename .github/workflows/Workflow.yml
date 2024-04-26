@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+8# This is a basic workflow to help you get started with Actions
 
 name: CI
 
@@ -37,6 +37,5 @@ jobs:
          npm install
          npm ststart
 #nstall dependencies
-scripts
 
 # Start the development server
